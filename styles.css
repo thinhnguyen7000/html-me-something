@@ -1,1 +1,65 @@
 /* Start styling!! */
+body {
+    background-color: white;
+}
+
+#navbar {
+    position: fixed;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    border: 2px solid #000000;
+    font-family: Futura, Tomaha, sans-serif;
+    color: black;
+    border-radius: 5px 5px;
+    background-color: blue;
+}
+img {
+	width:200px;
+	height:200px;
+}
+
+table {
+	border: 1px #70b8ff dashed;
+    float: none;
+    margin: auto;
+}
+
+td {
+    height: 100px;
+    width: : 100px;
+}
+
+td img {
+    height:auto;
+    width: : auto;
+}
+
+th {
+    font-family: Verdana;
+    font-size: 1em;
+    color: #3c4543;
+}
+
+p {
+    font-family: Arial;
+    font-size: 1em;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    padding: 5px;
+}
+
+.em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
